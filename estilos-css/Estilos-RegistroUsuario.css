@@ -1,0 +1,97 @@
+/*
+*
+*
+Fondo-Formulario
+*
+*/
+.Fondo-Formulario{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Fondo-Formulario div {
+  margin-top: 10px;
+  background-color: white;
+  width: 98%;
+  height: 850px;
+}
+  
+  /*
+  *
+  Estilo del Formulario del Admin
+  *
+  */
+  
+.formulario-usuario{
+  margin-top: -815px;
+  margin-bottom: 50px;
+  margin-right: 1003px;
+      
+}
+  
+label {
+  display:block;
+  margin-top:20px;
+  letter-spacing:1px;
+}
+   
+  .principal {
+      display:block;
+      margin:0 auto;
+      width:610px;
+  }
+
+
+  form {
+      background-color: #ffffff;
+      margin:0 auto;
+      width:40%;
+      color:#000000;
+      padding-top: 10px;
+      padding-bottom: 50px;
+ 
+  }
+   
+  input{
+      background:#ffffff;
+      border-color:#000000 #000000 #000000 #000000;
+      padding:10px;
+      margin-top:5px;
+      font-size:13px;
+      color:#000000;
+      margin-top: 20px;
+  }
+  
+
+  h2{
+    font-size: 32px;
+  }
+  
+  #submit {
+      width:85px;
+      height:35px;
+      border:none;
+      margin-top:20px;
+      cursor:pointer;
+  }
+  #submit:hover {
+    background-color: red;
+    color: white;
+  }
+  
+
+  /*
+  *
+  Imagen
+  *
+  */
+  .imagen-login{
+      background-image: url("https://static.wixstatic.com/media/a3c153_05f45dc2e127404f8e3f8c22b0c4c734~mv2.jpg/v1/crop/x_0,y_408,w_4000,h_5184/fill/w_439,h_571,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/pierre-chatel-innocenti-muMR2IhCbZ0-unsp.jpg");
+      background-repeat: no-repeat;
+      margin-top: -720px;
+      height: 720px;
+      position: relative;
+      margin-left: 1200px;
+  }
+  

@@ -1,0 +1,105 @@
+/*
+*
+Estilodelcontenedorcentral
+*
+*/
+.contenedor-central{
+    display:flex;
+    justify-content:center;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+.linea-central{
+    border-bottom:1px solid #000000;
+    margin-top:-88px;
+
+}
+
+h3{
+    width:30%;
+    max-width:300px;
+    padding:10px 10px;
+    text-align:center;
+    background-color:rgb(187,187,187);
+}
+
+/*
+*
+EstilodelFormulariodelAdmin
+*
+*/
+
+.formulario-admin{
+    z-index:1;
+    display:flex;
+    justify-content:center;
+    margin-top:100px;
+    margin-bottom:50px;
+}
+
+label{
+    display:block;
+    margin-top:20px;
+    letter-spacing:1px;
+}
+
+.principal{
+    display:block;
+    margin:0 auto;
+    width:610px;
+}
+
+form{
+    background-color:#000000;
+    margin:0auto;
+    width:40%;
+    color:#ffffff;
+    padding-top:10px;
+    padding-bottom:50px;
+    text-align:center;
+}
+
+input{
+    background:#000000;
+    border-color:#f6f6f600#f6f6f600#f6f6f6#f6f6f600;
+    padding:10px;
+    margin-top:5px;
+    font-size:13px;
+    color:#ffffff;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+button{
+    background:#ffffff;
+    padding:10px;
+    margin-top:5px;
+    font-size:13px;
+    color:#000000;
+    margin-top:20px;
+}
+
+
+#submit{
+    width:85px;
+    height:35px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+}
+
+.imagen-login{
+    background-image:url("https://static.wixstatic.com/media/a27d24_eb69d18410c74838976101d66f3de476~mv2.jpg/v1/fill/w_1743,h_721,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/a27d24_eb69d18410c74838976101d66f3de476~mv2.jpg");
+
+    margin-top:-248px;
+    height:720px;
+}
+
+a:hover{
+    color:#F0BD83;
+}
+
+a{
+    text-decoration:none;
+    color:#ffffff;
+}

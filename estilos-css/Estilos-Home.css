@@ -1,0 +1,69 @@
+/*
+*
+Fondo del titulo del profesor
+*
+*/
+.Fondo-Home{
+    background-color: #F2F4FA;
+    width: 45%;
+    height: 300px;
+    text-align: center;
+    padding: 50px;
+    margin: -150px auto;
+  }
+  
+.SubTitulo-Contenedor-Home{
+    margin-top:20px;
+}
+
+/*
+*
+Estilo del contenedor Profesor
+*
+*/
+.Texto-Profesor{
+    font-size: 16px;
+}
+
+.Titulo-Profesor{
+    margin-bottom: 20px;
+}
+
+/*
+*
+Estilo del contenedor central
+*
+*/
+.imagen-Profe{
+    background-image: url("https://static.wixstatic.com/media/5cb1eb_dcc2fe8c89214b058a072202a4053b47~mv2.jpg/v1/fill/w_1920,h_492,al_c,q_85,enc_auto/5cb1eb_dcc2fe8c89214b058a072202a4053b47~mv2.jpg");
+    height: 430px;
+  }
+
+/*
+*
+Estilo del contenedor de los cursos
+*
+*/
+.Titulo-Home-Cursos{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.Contenedor-Profesores{
+    margin: 20px auto;
+    width:400px;
+    height:400px;
+    display:grid;
+    grid-template-columns: 200px 200px;
+    grid-row: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.box{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+

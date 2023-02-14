@@ -1,0 +1,46 @@
+  /*
+  *
+  Estilo del contenedor central
+  *
+  */
+.contenedor-central{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 260px;
+    margin-bottom: 50px;
+    padding:10px 10px;
+ 
+}
+h3{
+    width:30%;
+    max-width:300px;
+    padding:30px 10px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+a:hover {
+    color:#F0BD83;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+/*
+*
+Imagen de fondo
+*
+*/
+
+.imagen-login{
+    background-image: url("https://static.wixstatic.com/media/a3c153_7de4e8c9cde646e9948c3fe36a44dfe3~mv2.jpg/v1/fill/w_1903,h_639,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/a3c153_7de4e8c9cde646e9948c3fe36a44dfe3~mv2.jpg");
+    margin-top: -413px;
+    height: 640px;
+  }
+  
+  
+  
+ 

@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #EBEBE8;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 32px;
+}
+h3{
+    font-size: 24px;
+}
+p{
+    font-size: 16px;
+}
+a{
+    font-size: 16px;
+    font:blod;
+}
+
+
+/*
+*
+Estilos de la barra de menú
+*
+*/
+
+.header-menu{
+    border-bottom: 1px solid #000000;
+}
+
+header {
+    background: #ffffff;
+    width: 100%;
+    clear: both;
+    content:'';
+    display: table;
+}
+
+.txt-logo{
+      padding: 27px;
+      font-size: 41px;
+      float: left;
+}
+
+.img-logo {
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding: 8px;
+    position: relative;
+    
+}
+.img-sesion {
+    width: 80px;
+    height: 80px;
+    float: right;
+    padding: 8px;
+    position: relative;
+    border-radius: 100%;
+    margin-top: -30px;
+}
+
+nav {
+    float: right;
+    margin-right: 40px;
+    margin-top: 30px;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 75px;
+    padding: 12px 0;
+    float: left;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color:#727BB3
+}
+
+.Titulo{
+    text-align: center;
+    padding: 20px;
+}
+
+.Texto-Home{
+    margin-top: 15px;
+}

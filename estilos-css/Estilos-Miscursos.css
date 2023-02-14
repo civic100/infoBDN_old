@@ -1,0 +1,53 @@
+
+/*
+*
+Estilo del contenedor central
+*
+*/
+.contenedor-central{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.linea-central{
+  border-bottom: 1px solid #000000;
+  margin-top: -88px;
+
+}
+
+h3{
+    width:30%;
+    max-width:300px;
+    padding:10px 10px;
+    text-align: center;
+    background-color: #F2F4FA;
+    margin-top: 150px;
+}
+
+.imagen-Profe{
+    background-image: url("https://static.wixstatic.com/media/ad420a_1acb4d42c29a4a028573825ec16e3917~mv2.jpg/v1/fill/w_1743,h_430,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ad420a_1acb4d42c29a4a028573825ec16e3917~mv2.jpg");
+    height: 430px;
+  }
+
+/*
+*
+Estilo del contenedor de los profesores
+*
+*/
+.Contenedor-Profesores{
+    margin: 20px auto;
+    width:400px;
+    height:400px;
+    display:grid;
+    grid-template-columns: 200px 200px;
+    grid-row: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.box{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
